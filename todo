@@ -1,0 +1,3 @@
+- check (change) all table dependency and change to mappedBy (https://www.baeldung.com/jpa-joincolumn-vs-mappedby)
+- have look https://stackoverflow.com/questions/69109649/hibernate-findbyid-vs-getbyid
+- add test for all services (https://medium.com/backend-habit/integrate-junit-and-mockito-unit-testing-for-service-layer-a0a5a811c58a)

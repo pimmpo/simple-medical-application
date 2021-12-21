@@ -21,9 +21,9 @@ public class Doctor {
 
     private LocalDate birthday;
 
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name = "specialityId")
-    private List<Speciality> specialities;
+    private Speciality specialities;
 
     @ManyToOne
     @JoinColumn(name = "departmentId")

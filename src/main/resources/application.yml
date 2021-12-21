@@ -12,3 +12,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
