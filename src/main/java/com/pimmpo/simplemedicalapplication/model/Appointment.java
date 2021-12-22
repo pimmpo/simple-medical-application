@@ -23,4 +23,8 @@ public class Appointment {
     private Patient patient;
 
     private LocalDate date;
+
+    @ManyToOne
+    @JoinColumn(name = "diseaseId")
+    private Disease disease;
 }

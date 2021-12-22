@@ -4,11 +4,11 @@ import com.pimmpo.simplemedicalapplication.dto.request.DepartmentAddRequest;
 import com.pimmpo.simplemedicalapplication.model.Department;
 import com.pimmpo.simplemedicalapplication.service.DepartmentService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import javax.websocket.server.PathParam;
-
+@Tag(name = "Api для создание отдела")
 @RestController
 @RequiredArgsConstructor
 public class DepartmentController {

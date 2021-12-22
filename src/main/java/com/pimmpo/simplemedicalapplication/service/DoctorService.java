@@ -29,4 +29,8 @@ public class DoctorService {
     public void deleteDoctor(long id) {
         doctorRepository.deleteById(id);
     }
+
+    public Doctor getById(long id) {
+        return doctorRepository.findById(id).get();
+    }
 }
